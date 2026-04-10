@@ -1,0 +1,39 @@
+type Reliability = 
+ variant {
+   high;
+   low;
+   medium;
+ };
+type PatternCategory = 
+ variant {
+   bearish_continuation;
+   bearish_reversal;
+   bullish_continuation;
+   bullish_reversal;
+   indecision;
+ };
+type Pattern = 
+ record {
+   category: PatternCategory;
+   formation: text;
+   formationType: FormationType;
+   id: text;
+   name: text;
+   psychology: text;
+   reliability: Reliability;
+   shortDescription: text;
+   strategy: text;
+   warnings: text;
+ };
+type FormationType = 
+ variant {
+   multi_candle;
+   single;
+   three_candle;
+   two_candle;
+ };
+service : {
+  getAllPatterns: () -> (vec Pattern) query;
+  getPatternById: (id: text) -> (opt Pattern) query;
+  getPatternsByCategory: (category: PatternCategory) -> (vec Pattern) query;
+}

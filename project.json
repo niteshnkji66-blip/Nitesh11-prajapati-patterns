@@ -1,0 +1,21 @@
+{
+  "overview": "A comprehensive candlestick pattern reference library by NK Prajapati. Features 30+ patterns with visual diagrams, educational descriptions, market psychology explanations, and trading guidance — fully searchable and filterable for traders at every level.",
+  "features": [
+    "30+ candlestick pattern library with visual diagrams",
+    "Search by pattern name or description",
+    "Filter by bullish, bearish, reversal, continuation, and indecision categories",
+    "Pattern detail pages with formation, psychology, and trading strategy",
+    "Responsive design for desktop and mobile",
+    "Public reference site — no login required"
+  ],
+  "category": "education",
+  "tags": [
+    "trading",
+    "candlestick",
+    "patterns",
+    "education",
+    "technical-analysis",
+    "finance"
+  ],
+  "last_updated": "2026-04-10T18:01:48.221Z"
+}
